@@ -61,7 +61,7 @@ This task performs visual grounding on the VG-RS dataset.
 
 We provide a convenient script to run the entire inference pipeline.
 
-1.  **Configure the script**: Open `run_grounding.sh` and modify the variables in the "配置" (Configuration) section to match your environment, especially `INFERENCE_MODE`, `MODEL_PATH`, and data paths.
+1.  **Configure the script**: Open `run_grounding.sh` and modify the variables in the Configuration section to match your environment, especially `INFERENCE_MODE`, `MODEL_PATH`, and data paths.
 
 2.  **Run the script**:
     ```bash
@@ -79,7 +79,7 @@ For context-aware VQA (`--prompt_version v2`), the `run_vqa.sh` script will auto
 
 ### Step 2: Inference via Script
 
-1.  **Configure the script**: Open `run_vqa.sh` and modify the variables in the "配置" (Configuration) section to match your environment, especially `INFERENCE_MODE`, `MODEL_PATH`, and data paths.
+1.  **Configure the script**: Open `run_vqa.sh` and modify the variables in the Configuration section to match your environment, especially `INFERENCE_MODE`, `MODEL_PATH`, and data paths.
 
 2.  **Run the script**:
     ```bash
@@ -93,7 +93,7 @@ This task performs VQA on the VR-Ads dataset.
 
 ### Inference via Script
 
-1.  **Configure the script**: Open `run_video_reasoning.sh` and modify the variables in the "配置" (Configuration) section to match your environment, especially `MODEL_PATH` and data paths.
+1.  **Configure the script**: Open `run_video_reasoning.sh` and modify the variables in the Configuration section to match your environment, especially `MODEL_PATH` and data paths.
 
 2.  **Run the script**:
     ```bash
