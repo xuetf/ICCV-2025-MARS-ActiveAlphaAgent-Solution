@@ -18,7 +18,7 @@ We have released the models for the **VG-RS** and **VQA-SA** tracks on Hugging F
 
 *   **VG-RS Model**: [Zach996/ActiveAlphaAgent-VG-RS](https://huggingface.co/Zach996/ActiveAlphaAgent-VG-RS)
 *   **VQA-SA Model**: [Zach996/ActiveAlphaAgent-VQA-SA](https://huggingface.co/Zach996/ActiveAlphaAgent-VQA-SA)
-*   **VR-Ads Model**: [Qwen/Qwen2-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct)
+*   **VR-Ads Model**: [Qwen/Qwen2.5-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct)
 
 To download the models, you can use `git lfs`:
 ```bash
