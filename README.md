@@ -111,8 +111,9 @@ The script will first check if a compatible VLLM service is already running. If 
 *   `--output_dir`: Directory to save the output results.
 *   `--image_base_dir`: The root directory where images are stored.
 *   `--model_name`: A name for your model configuration, used to generate the default output filename.
-*   `--inference_mode`: The inference framework, choices are `hf`, `vllm`, `client`.
-*   `--model_path`: Path to the trained model checkpoint. (Applicable for `hf` and `vllm` modes).
+*   `--inference_mode`: The inference framework, choices are `hf`, `client`.
+    > **Note:** For `grounding` and `vqa` tasks, the performance of `vllm`/`client` modes is significantly lower (2-4 pp) than `hf` mode due to implementation differences. To reproduce the official scores, please use the `hf` inference mode.
+*   `--model_path`: Path to the trained model checkpoint. (Applicable for `hf`).
 *   `--gpu_ids`: Comma-separated list of GPU IDs to use for inference. (Applicable for `hf` mode).
 *   `--port`: The port number for the API service. (Applicable for `client` mode).
 *   `--num_workers`: Number of worker threads for data processing in `client` mode.
