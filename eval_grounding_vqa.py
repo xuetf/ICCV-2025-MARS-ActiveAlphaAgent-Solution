@@ -982,7 +982,7 @@ def main():
         if args.model_name is not None:
             json_file_name = f"{json_file_name}_{args.model_name}"
 
-        args.output_path = os.path.join(args.output_dir, f"{json_file_name}_sft.jsonl")
+        args.output_path = os.path.join(args.output_dir, f"{json_file_name}.json")
         print(f"输出路径未指定，将使用默认路径: {args.output_path}")
 
     # --- Task Dispatching ---
