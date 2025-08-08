@@ -1,0 +1,11 @@
+transformers==4.51.3
+torch==2.6.0+cu124
+vllm==0.8.2
+decord==0.6.0
+flash_attn==2.7.4.post1
+pyav==14.2.1
+xformers==0.0.29.post2
+tokenizers==0.21.1
+torchvision==0.21.0
+tqdm==4.67.1
+triton==3.2.0
