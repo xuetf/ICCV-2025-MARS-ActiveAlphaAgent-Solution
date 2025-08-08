@@ -18,7 +18,7 @@ JSON_PATH="./data/VG-RS/VG-RS-question.json"
 
 
 IMAGE_BASE_DIR="./data/VG-RS"
-MODEL_PATH="Zach996/ActiveAlphaAgent-VG-RS"
+MODEL_PATH="Zach996/ActiveAlphaAgent-VG-RS" # https://huggingface.co/Zach996/ActiveAlphaAgent-VG-RS
 
 
 OUTPUT_DIR="./data/VG-RS/result/submission_qwen25_vl_distill_7b_35550_${INFERENCE_MODE}"

@@ -19,7 +19,7 @@ PROMPT_VERSION="v2"
 RAW_JSON_PATH="./data/VQA-SA/VQA-SA-question.json"
 
 IMAGE_BASE_DIR="../data/mars/VQA-SA"
-MODEL_PATH="Zach996/ActivaAlphaAgent-VQA-SA"
+MODEL_PATH="Zach996/ActivaAlphaAgent-VQA-SA" # https://huggingface.co/Zach996/ActiveAlphaAgent-VQA-SA
 
 
 OUTPUT_DIR="./data/VQA-SA/result/submission_qwen25_vl_distill_7b_vqa_${INFERENCE_MODE}"

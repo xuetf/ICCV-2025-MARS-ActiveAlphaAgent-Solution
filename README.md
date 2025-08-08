@@ -12,6 +12,25 @@ We are proud to announce our achievements in the [Multimodal Reasoning Competiti
 
 This repository provides the code to reproduce our results for all three tracks.
 
+## Model Zoo
+
+We have released the models for the **VG-RS** and **VQA-SA** tracks on Hugging Face. You can download them from the following links:
+
+*   **VG-RS Model**: [Zach996/ActiveAlphaAgent-VG-RS](https://huggingface.co/Zach996/ActiveAlphaAgent-VG-RS)
+*   **VQA-SA Model**: [Zach996/ActiveAlphaAgent-VQA-SA](https://huggingface.co/Zach996/ActiveAlphaAgent-VQA-SA)
+
+To download the models, you can use `git lfs`:
+```bash
+# Make sure you have git-lfs installed
+# git lfs install
+
+# Clone the repository for the VG-RS model
+git clone https://huggingface.co/Zach996/ActiveAlphaAgent-VG-RS
+
+# Clone the repository for the VQA-SA model
+git clone https://huggingface.co/Zach996/ActiveAlphaAgent-VQA-SA
+```
+
 ## Setup Environment
 
 ### Hardware Requirements
