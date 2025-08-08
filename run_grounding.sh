@@ -84,7 +84,7 @@ elif [ "$INFERENCE_MODE" == "client" ]; then
         # 2. 轮询检查 VLLM 服务状态
         echo "正在等待 VLLM 服务启动..."
         MAX_RETRIES=60
-        RETRY_INTERVAL=5
+        RETRY_INTERVAL=20
         HEALTH_CHECK_URL="http://0.0.0.0:${VLLM_PORT}/health"
 
         is_ready=false
