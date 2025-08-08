@@ -21,8 +21,8 @@ IMAGE_BASE_DIR="./data/VG-RS"
 MODEL_PATH="Zach996/ActiveAlphaAgent-VG-RS" # https://huggingface.co/Zach996/ActiveAlphaAgent-VG-RS
 
 
-OUTPUT_DIR="./data/VG-RS/result/submission_qwen25_vl_distill_7b_35550_${INFERENCE_MODE}"
-MODEL_NAME="Qwen25-7B-Distill-3550"
+OUTPUT_DIR="./data/VG-RS/result/submission_qwen25_vl_distill_7b_${INFERENCE_MODE}"
+MODEL_NAME="Qwen25-7B-Distill-VG"
 GPU_IDS="0,1,2,3"
 
 # --- Client 模式特定配置 ---
