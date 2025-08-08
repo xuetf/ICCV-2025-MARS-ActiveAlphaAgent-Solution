@@ -1,4 +1,4 @@
-# ICCV 2025 Submission
+# ICCV 2025 Challenge
 
 This repository contains the code for our submission to the **MARS2 Workshop @ ICCV 2025**.
 
